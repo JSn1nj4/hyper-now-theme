@@ -3,37 +3,31 @@ const backgroundColor = '#04090f';
 const foregroundColor = '#cbcfd4';
 
 // Colors
-const RED = '#de4f55';
-const GREEN = '#38dec9';
-const YELLOW = '#f0c981';
-const BLUE = '#81629e';
-const MAGENTA = '#dbbfe3';
-const LIGHT_GRAY = '#f2f2f2';
-const DARK_GRAY = '#596a86'
+
 
 // Mapped Colors
 const colors = {
   black: backgroundColor,
-  red: RED,
-  green: GREEN,
-  yellow: YELLOW,
-  blue: BLUE,
-  magenta: MAGENTA,
-  cyan: BLUE,
-  white: LIGHT_GRAY,
-  lightBlack: DARK_GRAY,
-  lightRed: RED,
-  lightGreen: GREEN,
-  lightYellow: YELLOW,
-  lightBlue: BLUE,
-  lightMagenta: MAGENTA,
-  lightCyan: BLUE,
+  red: '#de4f55',
+  green: '#38dec9',
+  yellow: '#f0c981',
+  blue: '#81629e',
+  magenta: '#dbbfe3',
+  cyan: '#81629e',
+  white: '#f2f2f2',
+  lightBlack: '#596a86',
+  lightRed: '#de4f55',
+  lightGreen: '#38dec9',
+  lightYellow: '#f0c981',
+  lightBlue: '#81629e',
+  lightMagenta: '#dbbfe3',
+  lightCyan: '#81629e',
   colorCubes: '#fff',
   grayscale: foregroundColor
 };
 
 // Additional Constants
-const cursorColor = YELLOW;
+const cursorColor = '#f0c981';
 const borderColor = backgroundColor;
 
 exports.decorateConfig = (config) => {
@@ -46,8 +40,8 @@ exports.decorateConfig = (config) => {
     css: `
       ${config.css || ''}
       .cursor-node {
-        background-color: ${MAGENTA} !important;
-        border-color: ${MAGENTA} !important;
+        background-color: ${'#dbbfe3'} !important;
+        border-color: ${'#dbbfe3'} !important;
       }
       .hyper_main {
         border: none !important;
@@ -62,7 +56,7 @@ exports.decorateConfig = (config) => {
         border: 0;
       }
       .tab_textActive {
-        border-bottom: 2px solid ${BLUE};
+        border-bottom: 2px solid ${'#81629e'};
       }
     `
   })
