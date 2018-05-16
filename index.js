@@ -8,12 +8,12 @@ const foregroundColor = '#cbcfd4';
 // Mapped Colors
 const colors = {
   black: backgroundColor,
-  red: '#ae81ff',
+  red: '#ff69b4',
   green: '#61e078',
-  yellow: '#ababab',
-  blue: '#ff69b4',
+  yellow: '#f1ae13',
+  blue: '#ae81ff',
   magenta: '#3f3f3f',
-  cyan: '#f1ae13',
+  cyan: '#ababab',
   white: '#ffffff',
   lightBlack: '#3f3f3f',
   lightRed: '#ababab',
