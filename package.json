@@ -1,0 +1,27 @@
+{
+  "name": "hyper-now-theme",
+  "version": "0.2.0",
+  "description": "A Hyper Terminal theme based on colors from the Zeit's Now website",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSn1nj4/hyper-now-theme.git"
+  },
+  "keywords": [
+    "Hyper",
+    "Theme",
+    "Now",
+    "Terminal",
+    "Bash"
+  ],
+  "author": "JSn1nj4",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JSn1nj4/hyper-now-theme/issues"
+  },
+  "homepage": "https://github.com/JSn1nj4/hyper-now-theme#readme"
+}
