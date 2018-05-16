@@ -1,6 +1,6 @@
 {
   "name": "hyper-now-theme",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A Hyper Terminal theme based on colors from the Zeit's Now website",
   "private": true,
   "main": "index.js",
