@@ -68,5 +68,5 @@ exports.decorateConfig = (config) => {
         border-bottom: 2px solid ${D_YELLOW};
       }
     `
-  })
-}
+  });
+};
