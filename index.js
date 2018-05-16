@@ -8,7 +8,8 @@ const MAGENTA = '#ff0080';
 const L_MAGENTA = '#ff69b4';
 const D_YELLOW = '#f1ae13';
 const L_GREEN = '#61e078';
-const L_CYAN = '#77c8f2';
+const L_CYAN = '#00e7c0';
+const D_CYAN = '#287161';
 const L_PURPLE = '#ae81ff';
 const WHITE = '#ffffff';
 const L_GRAY = '#ababab';
@@ -19,10 +20,10 @@ const COLORS = {
   black: BG_COLOR,
   red: MAGENTA,
   green: L_GREEN,
-  yellow: D_YELLOW,
+  yellow: L_GRAY,
   blue: L_PURPLE,
   magenta: D_GRAY,
-  cyan: L_GRAY,
+  cyan: L_CYAN,
   white: WHITE,
   lightBlack: D_GRAY,
   lightRed: L_MAGENTA,
