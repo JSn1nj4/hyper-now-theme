@@ -22,7 +22,7 @@ const COLORS = {
   green: L_GREEN,
   yellow: L_GRAY,
   blue: L_PURPLE,
-  magenta: D_GRAY,
+  magenta: D_CYAN,
   cyan: L_CYAN,
   white: WHITE,
   lightBlack: D_GRAY,
