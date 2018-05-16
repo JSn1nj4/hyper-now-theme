@@ -16,12 +16,12 @@ const colors = {
   cyan: '#ababab',
   white: '#ffffff',
   lightBlack: '#3f3f3f',
-  lightRed: '#ababab',
+  lightRed: '#ff5b53',
   lightGreen: '#61e078',
-  lightYellow: '#77c8f2',
+  lightYellow: '#f1ae13',
   lightBlue: '#ff5b53',
   lightMagenta: '#ff69b4',
-  lightCyan: '#f1ae13',
+  lightCyan: '#77c8f2',
   colorCubes: '#ababab',
   grayscale: foregroundColor
 };
