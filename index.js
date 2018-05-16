@@ -1,5 +1,5 @@
 // Constants
-const backgroundColor = '#1a1a1a';
+const backgroundColor = '#000000';
 const foregroundColor = '#cbcfd4';
 
 // Colors
