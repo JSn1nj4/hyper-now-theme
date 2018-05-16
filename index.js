@@ -1,6 +1,6 @@
 // Constants
-const backgroundColor = '#000000';
-const foregroundColor = '#cbcfd4';
+const BG_COLOR = '#000000';
+const FG_COLOR = '#cbcfd4';
 
 // Colors
 const L_RED = '#ff5b53';
@@ -15,8 +15,8 @@ const L_GRAY = '#ababab';
 const D_GRAY = '#3f3f3f';
 
 // Mapped Colors
-const colors = {
-  black: backgroundColor,
+const COLORS = {
+  black: BG_COLOR,
   red: MAGENTA,
   green: L_GREEN,
   yellow: D_YELLOW,
@@ -32,20 +32,20 @@ const colors = {
   lightMagenta: L_MAGENTA,
   lightCyan: L_CYAN,
   colorCubes: L_GRAY,
-  grayscale: foregroundColor
+  grayscale: FG_COLOR
 };
 
 // Additional Constants
 const CURSOR_COLOR = L_CYAN;
-const borderColor = backgroundColor;
+const BORDER_COLOR = BG_COLOR;
 
 exports.decorateConfig = (config) => {
   return Object.assign({}, config, {
-    foregroundColor,
-    backgroundColor,
-    borderColor,
-    cursorColor,
-    colors,
+    ForegroundColor: FG_COLOR,
+    BackgroundColor: BG_COLOR,
+    borderColor: BORDER_COLOR,
+    cursorColor: CURSOR_COLOR,
+    colors: COLORS,
     css: `
       ${config.css || ''}
       .cursor-node {
@@ -56,7 +56,7 @@ exports.decorateConfig = (config) => {
         border: none !important;
       }
       .header_header {
-        background: ${backgroundColor} !important;
+        background: ${BG_COLOR} !important;
       }
       .splitpane_divider {
         background-color: rgba(130, 128, 184, 0.5) !important;
